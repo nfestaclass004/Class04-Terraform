@@ -35,6 +35,6 @@ module "vpc" {
     Environment = "dev"
   }
   vpc_tags = {
-    Name = "vpc-dev"
+    Name = "dev-tf-vpc"
   }
 }
